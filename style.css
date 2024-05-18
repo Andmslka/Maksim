@@ -1,14 +1,84 @@
 body {
-    font-family: sans-serif;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
 }
 
-p {
-    font-size: 20px;
+header {
+    background-color: #ff6347;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+nav ul {
+    background-color: #333;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    display: inline-block;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    background-color: #ff6347;
+    color: #fffacd;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem 0;
+}
+
+#about {
+    background-color: #fafad2;
+}
+
+.project {
+    background-color: #ffe4b5;
+    margin: 1rem 0;
+    padding: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover,
+.project:focus {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
 
 a {
+    color: #ff6347;
     text-decoration: none;
-    color: black;
-    border-bottom: 1px dotted black;
-    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+a:hover,
+a:focus {
+    color: #ffa07a;
 }
