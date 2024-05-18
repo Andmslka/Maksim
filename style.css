@@ -3,18 +3,19 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f0f8ff;
+    background-color: #f3e5f5; /* Светло-фиолетовый фон */
+    color: #4a148c; /* Темно-фиолетовый текст */
 }
 
 header {
-    background-color: #ff6347;
+    background-color: #6a1b9a;
     color: white;
     padding: 2rem;
     text-align: center;
 }
 
 nav ul {
-    background-color: #333;
+    background-color: #4a148c;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -36,34 +37,48 @@ nav ul li a {
 
 nav ul li a:hover,
 nav ul li a:focus {
-    background-color: #ff6347;
-    color: #fffacd;
+    background-color: #8e24aa;
 }
 
-section {
+main {
     padding: 2rem;
     margin: 1rem 0;
 }
 
-#about {
-    background-color: #fafad2;
+section {
+    margin-bottom: 2rem;
 }
 
-.project {
-    background-color: #ffe4b5;
-    margin: 1rem 0;
+h2 {
+    color: #6a1b9a;
+    border-bottom: 2px solid #8e24aa;
+    padding-bottom: 0.5rem;
+}
+
+ul {
+    padding-left: 1.5rem;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+.example {
+    background-color: #e1bee7;
     padding: 1rem;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 1rem;
+    border-left: 5px solid #6a1b9a;
 }
 
-.project:hover,
-.project:focus {
-    transform: scale(1.05);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+pre {
+    background-color: #4a148c;
+    color: white;
+    padding: 1rem;
+    overflow-x: auto;
 }
 
 footer {
-    background-color: #333;
+    background-color: #4a148c;
     color: white;
     text-align: center;
     padding: 1rem;
@@ -73,12 +88,12 @@ footer {
 }
 
 a {
-    color: #ff6347;
+    color: #6a1b9a;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 a:hover,
 a:focus {
-    color: #ffa07a;
+    color: #8e24aa;
 }
