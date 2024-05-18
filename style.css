@@ -53,6 +53,12 @@ h2 {
     color: #6a1b9a;
     border-bottom: 2px solid #8e24aa;
     padding-bottom: 0.5rem;
+    transition: color 0.3s ease;
+}
+
+h2:hover,
+h2:focus {
+    color: #8e24aa;
 }
 
 ul {
@@ -61,6 +67,13 @@ ul {
 
 ul li {
     margin-bottom: 0.5rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+ul li:hover,
+ul li:focus {
+    transform: scale(1.05);
+    color: #8e24aa;
 }
 
 .example {
@@ -68,6 +81,13 @@ ul li {
     padding: 1rem;
     margin-top: 1rem;
     border-left: 5px solid #6a1b9a;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.example:hover,
+.example:focus {
+    background-color: #d1c4e9;
+    transform: scale(1.05);
 }
 
 pre {
@@ -75,6 +95,12 @@ pre {
     color: white;
     padding: 1rem;
     overflow-x: auto;
+    transition: background-color 0.3s ease;
+}
+
+pre:hover,
+pre:focus {
+    background-color: #8e24aa;
 }
 
 footer {
@@ -85,6 +111,12 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+    transition: background-color 0.3s ease;
+}
+
+footer:hover,
+footer:focus {
+    background-color: #6a1b9a;
 }
 
 a {
