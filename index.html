@@ -3,43 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мое Портфолио - Дмитрий</title>
+    <title>Шпаргалка по HTML и CSS</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Мое Портфолио</h1>
-        <p>Привет! Меня зовут Дмитрий, мне 13 лет, и я уже почти год изучаю HTML и CSS.</p>
+        <h1>Шпаргалка по HTML и CSS</h1>
+        <p>Полезные теги и свойства для учеников Алгоритмики</p>
     </header>
     <nav>
         <ul>
-            <li><a href="#about">Обо мне</a></li>
-            <li><a href="#projects">Проекты</a></li>
-            <li><a href="#contact">Контакты</a></li>
+            <li><a href="#html-tags">Теги HTML</a></li>
+            <li><a href="#css-properties">Свойства CSS</a></li>
+            <li><a href="#examples">Примеры</a></li>
         </ul>
     </nav>
-    <img src="Group1.png">
-    <section id="about">
-        <h2>Обо мне</h2>
-        <p>Я увлекаюсь веб-разработкой и люблю создавать красивые и функциональные веб-сайты. В свободное время я изучаю новые технологии и совершенствую свои навыки.</p>
-    </section>
-    <section id="projects">
-        <h2>Мои проекты</h2>
-        <div class="project">
-            <h3>Проект 1</h3>
-            <p>Описание проекта 1.</p>
-        </div>
-        <div class="project">
-            <h3>Проект 2</h3>
-            <p>Описание проекта 2.</p>
-        </div>
-    </section>
-    <section id="contact">
-        <h2>Контакты</h2>
-        <p>Вы можете связаться со мной по электронной почте: <a href="mailto:example@example.com">example@example.com</a></p>
-    </section>
+    <main>
+        <section id="html-tags">
+            <h2>Теги HTML</h2>
+            <ul>
+                <li><code>&lt;h1&gt;...&lt;/h1&gt;</code> - заголовок первого уровня</li>
+                <li><code>&lt;p&gt;...&lt;/p&gt;</code> - абзац</li>
+                <li><code>&lt;a href="..."&gt;...&lt;/a&gt;</code> - ссылка</li>
+                <li><code>&lt;img src="..." alt="..."&gt;</code> - изображение</li>
+                <li><code>&lt;div&gt;...&lt;/div&gt;</code> - контейнер</li>
+                <li><code>&lt;span&gt;...&lt;/span&gt;</code> - встроенный контейнер</li>
+                <li><code>&lt;ul&gt; &lt;li&gt;...&lt;/li&gt; &lt;/ul&gt;</code> - ненумерованный список</li>
+                <li><code>&lt;ol&gt; &lt;li&gt;...&lt;/li&gt; &lt;/ol&gt;</code> - нумерованный список</li>
+                <li><code>&lt;table&gt;...&lt;/table&gt;</code> - таблица</li>
+            </ul>
+        </section>
+        <section id="css-properties">
+            <h2>Свойства CSS</h2>
+            <ul>
+                <li><code>color</code> - цвет текста</li>
+                <li><code>background-color</code> - цвет фона</li>
+                <li><code>font-size</code> - размер шрифта</li>
+                <li><code>margin</code> - внешние отступы</li>
+                <li><code>padding</code> - внутренние отступы</li>
+                <li><code>border</code> - граница элемента</li>
+                <li><code>display</code> - тип отображения элемента</li>
+                <li><code>flex</code> - гибкое выравнивание элементов</li>
+                <li><code>grid</code> - сеточная раскладка</li>
+            </ul>
+        </section>
+        <section id="examples">
+            <h2>Примеры</h2>
+            <div class="example">
+                <h3>Пример HTML</h3>
+                <pre>
+<code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Мой сайт&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Привет, мир!&lt;/h1&gt;
+    &lt;p&gt;Это пример HTML.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code>
+                </pre>
+            </div>
+            <div class="example">
+                <h3>Пример CSS</h3>
+                <pre>
+<code>
+body {
+    background-color: #f3e5f5;
+    color: #4a148c;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+p {
+    font-size: 1em;
+    margin: 10px 0;
+}
+</code>
+                </pre>
+            </div>
+        </section>
+    </main>
     <footer>
-        <p>&copy; 2024 Дмитрий. Все права защищены.</p>
+        <p>&copy; 2024 Шпаргалка по HTML и CSS для Алгоритмики. Все права защищены.</p>
     </footer>
 </body>
 </html>
